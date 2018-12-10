@@ -10,6 +10,8 @@ I have been working on CommunityKit for about four months.
 * The first push was between April 17 and July 24 2018.
 * The current push began November 5, 2018.
 
-As of December 9, 2018, CommunityKit is 79,065 lines of CSharp.
+As of December 9, 2018, CommunityKit is 79,065 lines of code.
 
-The client runs on the XNA platform, and is portable to MonoGame/FNA for cross-platform purposes.
+The server runs on .NET Core 2.0.
+
+The client uses the XNA platform, and is portable to MonoGame/FNA for cross-platform purposes.
