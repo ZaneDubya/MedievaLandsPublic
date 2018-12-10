@@ -1,9 +1,11 @@
 # Welcome to CommunityKit
 My name is Zane, and I'm working on a modern engine for games in the style of [The Shadow of Yserbius](https://en.wikipedia.org/wiki/The_Shadow_of_Yserbius). Thanks for checking it out!
 
-Released in 1993, Yserbius was one of the first online RPGs. Up to 60 people at a time could meet up, create adventuring parties, and delve deep into monster-filled dunegons. Then, after you were done adventuring, you could venture off with your friends to play other games on the Imagination Network, which modestly billed itself as "the friendlest place in cyberspace".
+Released in 1993, Yserbius was one of the first online RPGs. Up to 60 people at a time could meet up, create adventuring parties, and delve deep into monster-filled dunegons. Then, after you were done adventuring, you could venture off with your friends to play other games on the Imagination Network, which modestly described itself as "the friendlest place in cyberspace".
 
-I have very fond memories of Yserbius and the Imagination Network. CommunityKit is my attempt to recreate that kind of experience. As a proof of concept, I'm going to first focus on creating a modern reimplementation of Yserbius. After the dungeon crawl is complete, my stretch goals are to add community features such as in-game mail, and add other common games such as board/card games.
+I have very fond memories of Yserbius and the Imagination Network. CommunityKit is my attempt to recreate that kind of experience: the ability to create a persona, to play fun games with other people, and to be a part of a community that is welcoming, helpful, and supportive. 
+
+The proof-of-concept goal of CommunityKit is to a modern reimplementation of The Shadow of Yserbius. After the dungeon crawl is complete, my stretch goals are to add community features such as in-game mail, and add other common games such as board/card games.
 
 This is the public repository for documentation and issue tracking for CommunityKit.
 * Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
