@@ -9,7 +9,7 @@ The proof-of-concept goal of CommunityKit is to a modern reimplementation of The
 
 This is the public repository for documentation and issue tracking for CommunityKit.
 * Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
-* Check out [issues currently in progress here](https://github.com/ZaneDubya/CommunityKitPublic/projects/1).
+* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/1).
 
 # Development
 I have been working on CommunityKit for about four months.
