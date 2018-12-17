@@ -5,7 +5,7 @@ Released in 1993, Yserbius was one of the first online RPGs. Up to 60 people at 
 
 I have very fond memories of Yserbius and the Imagination Network. CommunityKit is my attempt to recreate that kind of experience: the ability to create a persona, to play fun games with other people, and to be a part of a community that is welcoming, helpful, and supportive. 
 
-The proof-of-concept goal of CommunityKit is to a modern reimplementation of The Shadow of Yserbius. After the dungeon crawl is complete, my stretch goals are to add community features such as in-game mail, and add other common games such as board/card games.
+The proof-of-concept goal of CommunityKit will be a modern reimplementation of The Shadow of Yserbius. After the dungeon crawl is complete, my stretch goals are to add community features such as in-game mail, and add other common games such as board/card games. Following the completion of the stretch goals, I plan to build the dungeon crawn engine to build a brand new scenario, with new assets and mechanics.
 
 This is the public repository for documentation and issue tracking for CommunityKit.
 * Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
