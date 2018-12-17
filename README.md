@@ -15,7 +15,7 @@ This is the public repository for documentation and issue tracking for Community
 * Feature Complete - January 2019.
 * Polish and testing / bugfix - February 2019.
 * Release - March 2019.
-* Hypercare and stabilization after launch.
+* Hypercare and stabilization after launch - expected end May 2019.
 
 ## Development History
 I have been working on CommunityKit for about four months.
