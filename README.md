@@ -11,7 +11,13 @@ This is the public repository for documentation and issue tracking for Community
 * Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
 * Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/1).
 
-# Development
+## Road Map
+* Feature Complete - January 2019.
+* Polish and testing / bugfix - February 2019.
+* Release - March 2019.
+* Hypercare and stabilization after launch.
+
+## Development History
 I have been working on CommunityKit for about four months.
 * The first push was between April 17 and July 24, 2018.
 * The current push began November 5, 2018 and is ongoing.
