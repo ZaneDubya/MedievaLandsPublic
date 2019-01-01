@@ -9,7 +9,7 @@ The proof-of-concept goal of CommunityKit will be a modern reimplementation of T
 
 This is the public repository for documentation and issue tracking for CommunityKit.
 * Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
-* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/2).
+* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/5).
 
 ## Road Map (Estimated)
 * Feature Complete - January 2019.
