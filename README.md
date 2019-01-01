@@ -1,7 +1,7 @@
 # Welcome to CommunityKit
 My name is Zane, and I'm working on a modern engine for games in the style of [The Shadow of Yserbius](https://en.wikipedia.org/wiki/The_Shadow_of_Yserbius). Thanks for checking it out!
 
-Released in 1993, Yserbius was one of the first online graphical RPGs. Up to 60 people at a time could meet up, create adventuring parties, and delve deep into monster-filled dunegons. Then, after you were done adventuring, you could venture off with your friends to play other games on the Imagination Network, which modestly described itself as "the friendlest place in cyberspace".
+Released in 1993, Yserbius was one of the first online graphical RPGs. Up to 60 people at a time could meet up, create adventuring parties, and delve deep into monster-filled dunegons. When you were done adventuring, you could venture off with your friends to play other games on the Imagination Network, which modestly described itself as "the friendlest place in cyberspace".
 
 I have very fond memories of Yserbius and the Imagination Network. CommunityKit is my attempt to recreate that kind of experience: the ability to create a persona, to play fun games with other people, and to be a part of a community that is welcoming, helpful, and supportive. 
 
@@ -9,12 +9,12 @@ The proof-of-concept goal of CommunityKit will be a modern reimplementation of T
 
 This is the public repository for documentation and issue tracking for CommunityKit.
 * Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
-* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/1).
+* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/2).
 
-## Road Map
+## Road Map (Estimated)
 * Feature Complete - January 2019.
 * Polish and testing / bugfix - February 2019.
-* Release - March 2019.
+* Public Release - March 2019.
 * Hypercare and stabilization after launch - expected end May 2019.
 
 ## Development History
@@ -25,6 +25,6 @@ I have been working on CommunityKit for about four months.
 * I also expect it will need a rigorous bug testing period after release.
 
 CommunityKit is written in C#.
-* As of December 16, 2018, CommunityKit is 79,452 lines of code. 
+* As of January 1, 2019, CommunityKit is 81,149 lines of code. 
 * The server runs on .NET Core 2.0.
-* The client runs on the XNA platform, and is portable to MonoGame/FNA for cross-platform releases.
+* The client runs on the XNA platform, portable to MonoGame/FNA for cross-platform releases.
