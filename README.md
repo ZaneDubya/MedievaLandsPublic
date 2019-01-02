@@ -19,8 +19,8 @@ This is the public repository for documentation and issue tracking for Community
 
 ## Development History
 * I have been working on CommunityKit for about five months.
-** The first push was between April 17 and July 24, 2018.
-** The current push began November 5, 2018 and is ongoing.
+* The first push was between April 17 and July 24, 2018.
+* The current push began November 5, 2018 and is ongoing.
 * My best estimate is that it will be ready for release in early 2019.
 * I also expect it will need a rigorous bug testing period after release.
 
