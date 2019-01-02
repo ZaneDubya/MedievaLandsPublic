@@ -12,16 +12,16 @@ This is the public repository for documentation and issue tracking for Community
 * Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/5).
 
 ## Road Map (Estimated)
-* Feature Complete - January 2019.
-* Polish and testing / bugfix - February 2019.
+* Dungeon Crawl was Feature Complete on January 1, 2019.
+* Dungeon Crawl polish, testing, and bugfixing; Tavern - February 2019.
 * Public Release - March 2019.
 * Hypercare and stabilization after launch - expected end May 2019.
 
 ## Development History
-I have been working on CommunityKit for about four months.
-* The first push was between April 17 and July 24, 2018.
-* The current push began November 5, 2018 and is ongoing.
-* My best estimate is that it will be feature complete in early 2019.
+* I have been working on CommunityKit for about five months.
+** The first push was between April 17 and July 24, 2018.
+** The current push began November 5, 2018 and is ongoing.
+* My best estimate is that it will be ready for release in early 2019.
 * I also expect it will need a rigorous bug testing period after release.
 
 CommunityKit is written in C#.
