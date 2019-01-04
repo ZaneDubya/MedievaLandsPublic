@@ -12,10 +12,11 @@ This is the public repository for documentation and issue tracking for Community
 * Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/5).
 
 ## Road Map (Estimated)
-* Dungeon Crawl was Feature Complete on January 1, 2019.
-* Dungeon Crawl polish, testing, and bugfixing; Tavern - February 2019.
-* Public Release - March 2019.
-* Hypercare and stabilization after launch - expected end May 2019.
+* Dungeon Crawl Feature Complete - Complete January 1, 2019.
+* Tavern, Assets, and bug fixes - Expected January 2019.
+* Polish and closed testing - Febuary 2019.
+* Public Release - Expected March 2019.
+* Hypercare and stabilization after launch - expected to end May 2019.
 
 ## Development History
 * I have been working on CommunityKit for about five months.
@@ -25,6 +26,9 @@ This is the public repository for documentation and issue tracking for Community
 * I also expect it will need a rigorous bug testing period after release.
 
 CommunityKit is written in C#.
-* As of January 1, 2019, CommunityKit is 81,149 lines of code. 
+* As of January 4, 2019, CommunityKit is 81,550 lines of code. 
+  * The Server is 40,119 lines of code.
+  * The Client is 35,609 lines of code.
+  * The Shared Codebase is 5,822 lines of code.
 * The server runs on .NET Core 2.0.
 * The client runs on the XNA platform, portable to MonoGame/FNA for cross-platform releases.
