@@ -9,26 +9,26 @@ The proof-of-concept goal of CommunityKit will be a modern reimplementation of T
 
 This is the public repository for documentation and issue tracking for CommunityKit.
 * Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
-* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/5).
+* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/4).
 
 ## Road Map (Estimated)
-* Dungeon Crawl Feature Complete - Complete January 1, 2019.
-* Tavern, Assets, and bug fixes - Expected January 2019.
-* Polish and closed testing - Febuary 2019.
-* Public Release - Expected March 2019.
-* Hypercare and stabilization after launch - expected to end May 2019.
+* Feature Complete: Dungeon (January 1, 2019), Tavern (January 15, 2019).
+* Bug fixes, polish, and assets expected complete by end of January 2019.
+* Additional polish and closed testing expected throughout Febuary 2019.
+* Public replease expected early to mid March 2019.
+* Hypercare and stabilization after launch expected to end May 2019.
 
 ## Development History
-* I have been working on CommunityKit for about five months.
+* As of January 15, 2019, I have been working on CommunityKit for about five and a half months.
 * The first push was between April 17 and July 24, 2018.
 * The current push began November 5, 2018 and is ongoing.
-* My best estimate is that it will be ready for release in early 2019.
-* I also expect it will need a rigorous bug testing period after release.
+* My best estimate is that it will be ready for release in early to mid March 2019.
+* I also expect it will need a rigorous bug testing period ("hypercare and stabilization") after release.
 
 CommunityKit is written in C#.
-* As of January 4, 2019, CommunityKit is 81,550 lines of code. 
-  * The Server is 40,119 lines of code.
-  * The Client is 35,609 lines of code.
-  * The Shared Codebase is 5,822 lines of code.
+* As of January 15, 2019, CommunityKit is 82,206 lines of code. 
+  * The Server is 40,302 lines of code.
+  * The Client is 36,101 lines of code.
+  * The Shared Codebase is 5,803 lines of code.
 * The server runs on .NET Core 2.0.
 * The client runs on the XNA platform, portable to MonoGame/FNA for cross-platform releases.
