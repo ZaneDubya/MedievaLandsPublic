@@ -26,9 +26,9 @@ This is the public repository for documentation and issue tracking for Community
 * I also expect it will need a rigorous bug testing period ("hypercare and stabilization") after release.
 
 CommunityKit is written in C#.
-* As of January 23, 2019, CommunityKit is 83,195 lines of code. 
-  * The Server is 40,414 lines of code.
-  * The Client is 36,872 lines of code.
-  * The Client and Server share an additional codebase of 5,909 lines of code.
+* As of January 24, 2019, CommunityKit is 83,439 lines of code. 
+  * The Server is 40,517 lines of code.
+  * The Client is 36,904 lines of code.
+  * The Client and Server share an additional codebase of 6,018 lines of code.
 * The server runs on .NET Core 2.0.
 * The client runs on the XNA platform, portable to MonoGame/FNA for cross-platform releases.
