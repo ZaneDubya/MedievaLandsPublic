@@ -30,17 +30,17 @@ You may not impersonate those who manage and represent CommunityKit.
 
 You may not organize any guilds or groups that are based on or espouse any discrimination based on identity, background, or the way a person may express themselves.
 
-You may not give false information to those who manage or represent CommunityKit. You will not intentionally hide any information that is asked of you at the time you register with CommunityKit. You will not fabricate information to make false Complaints.
+You may not give false information to those who manage and represent CommunityKit. You will not intentionally hide any information that is asked of you at the time you register with CommunityKit. You will not fabricate information to make false Complaints.
 
 You will not attempt to interfere with or hack any server or protocol running CommunityKit.
 
-You will not exploit any bug in the CommunityKit product to gain unfair advantage in the game, and you will not communicate the existence of any bugs to any entity other than those who manage or run CommunityKit.
+You will not exploit any bug in the CommunityKit product to gain unfair advantage in the game, and you will not communicate the existence of any bugs to any entity other than those who manage and run CommunityKit.
 
 Our Responsibilities:
 
-Those who manage and represent CommunityKit are responsible for taking appropriate corrective action in response to any instances of unacceptable behavior. They also have the right and responsibility to limit content that are not aligned with these Rules of Conduct, and to ban temporarily or permanently any user for violations of these rules or other conduct that they deem inappropriate, threatening, offensive, or harmful.
+Those who manage and represent CommunityKit are responsible for taking appropriate corrective action in response to any instances of unacceptable behavior. They also have the right and responsibility to limit content that are not aligned with these Rules of Conduct, and to ban temporarily or permanently any user for violations of these rules or any other conduct that they deem inappropriate, threatening, offensive, or harmful. They must enforce these rules in good faith.
 
-Those who manage or represent CommunityKit and who do not follow or enforce these Rules of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the CommunityKit's leadership.
+Those who manage and represent CommunityKit and who do not follow or enforce these Rules of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the CommunityKit's leadership.
 
 Enforcement:
 
