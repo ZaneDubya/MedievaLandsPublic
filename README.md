@@ -13,22 +13,22 @@ This is the public repository for documentation and issue tracking for Community
 
 ## Road Map (Estimated)
 * Feature Complete: Dungeon (January 1, 2019), Tavern (January 15, 2019).
-* Bug fixes, polish, and assets expected complete by end of January 2019.
-* Additional polish and closed testing expected throughout Febuary 2019.
-* Public replease expected early to mid March 2019.
+* Bug fixes, polish, and assets expected complete by early February 2019.
+* Additional polish and closed testing expected throughout Febuary 2019. During this period, I will also be determining the governance structure of the CommunityKit community administration.
+* Public release expected mid March 2019.
 * Hypercare and stabilization after launch expected to end May 2019.
 
 ## Development History
-* As of January 15, 2019, I have been working on CommunityKit for about five and a half months.
+* As of February 4, 2019, I have been working on CommunityKit for six months.
 * The first push was between April 17 and July 24, 2018.
 * The current push began November 5, 2018 and is ongoing.
 * My best estimate is that it will be ready for release in early to mid March 2019.
 * I also expect it will need a rigorous bug testing period ("hypercare and stabilization") after release.
 
 CommunityKit is written in C#.
-* As of January 24, 2019, CommunityKit is 83,439 lines of code. 
-  * The Server is 40,517 lines of code.
-  * The Client is 36,904 lines of code.
-  * The Client and Server share an additional codebase of 6,018 lines of code.
+* As of February 4, 2019, CommunityKit is 84,684 lines of code. 
+  * The Server-specific codebase is approximately 47% of the code.
+  * The Client-specific codebase is approximately 44% of the code.
+  * The Client and Server share an additional codebase of 7,255 lines of code.
 * The server runs on .NET Core 2.0.
 * The client runs on the XNA platform, portable to MonoGame/FNA for cross-platform releases.
