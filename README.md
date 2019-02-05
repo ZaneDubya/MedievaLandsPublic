@@ -8,8 +8,8 @@ I have very fond memories of Yserbius and the Imagination Network. CommunityKit 
 The proof-of-concept goal of CommunityKit will be a modern reimplementation of The Shadow of Yserbius. After the dungeon crawl is complete, my stretch goals are to add community features such as in-game mail, and add other common games such as board/card games. Following the completion of the stretch goals, I plan to use the dungeon crawn engine to build a brand new scenario, with new assets and mechanics.
 
 This is the public repository for documentation and issue tracking for CommunityKit.
-* Check out [issue tracking here](https://github.com/ZaneDubya/CommunityKitPublic/issues).
-* Check out [progress on the current milestone here](https://github.com/ZaneDubya/CommunityKitPublic/milestone/4).
+* Check out [all open issues](https://github.com/ZaneDubya/CommunityKitPublic/issues).
+* Check out [the final pre-release milestone](https://github.com/ZaneDubya/CommunityKitPublic/milestone/7).
 
 ## Road Map (Estimated)
 * Feature Complete: Dungeon (January 1, 2019), Tavern (January 15, 2019).
