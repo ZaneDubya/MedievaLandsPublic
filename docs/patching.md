@@ -21,11 +21,9 @@ Command line parameters to patcher:
   * There are separate manifest files each platform (windows and mac).
   * The manifest file is a csv and has these parameters for each file: 
     * Filename (string)
-    * Required for server (0/1)
-    * Required for client (0/1)
-    * Is patching exeapp for Windows (0/1)
     * CRC32
     * CRC32 backwards (int)
+    * Platform (empty, Windows, or Mac) - only download if platform matches this value.
 * The client application checks the current files against the CRC32 values and platform values.
   * If it detects any new or changed files, it downloads the patcher to a temporary folder and runs it.
   * The patcher runs the same check, except it is now downloading the files.
