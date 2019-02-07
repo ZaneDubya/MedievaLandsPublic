@@ -18,12 +18,11 @@ Command line parameters to patcher:
 
 ## How does the current application / patcher application know what to download?
 * The server has a manifest file that includes the required files to run.
-  * There are separate manifest files each platform (windows and mac).
-  * The manifest file is a csv and has these parameters for each file: 
-    * Filename (string)
-    * CRC32
-    * CRC32 backwards (int)
-    * Platform (empty, Windows, or Mac) - only download if platform matches this value.
+* There are separate manifest files each platform (windows and mac).
+* The manifest file is a csv and has these parameters for each file: 
+  * Filename (string)
+  * CRC32
+  * CRC32 backwards (int)
 * The client application checks the current files against the CRC32 values and platform values.
   * If it detects any new or changed files, it downloads the patcher to a temporary folder and runs it.
   * The patcher runs the same check, except it is now downloading the files.
