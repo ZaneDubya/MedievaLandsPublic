@@ -2,7 +2,7 @@
 
 Current running client application checks for updates on launch.
 * If an update is available, prompt the user to download it, noting that this will require a restart.
-* If user permits, download and unpack the update into a temporary location. The update will include a separate signed patching application (patcher).
+* If user permits, download the patching app and updated files into a temporary location. The update will include a separate signed patching application (patcher).
 * Launch the patcher and shut down.
   * The patcher waits for the current client application to terminate.
   * The patcher deletes the current client application from the app folder.
@@ -17,9 +17,17 @@ Command line parameters to patcher:
 * Third is the path to the new version.
 
 ## How does the current application / patcher application know what to download?
-* The server has a manifest file that includes the required files to run and a CRC32 (backwards and forwards) for each file.
-* The client application checks the current files against the CRC32.
-  * If it detects any changes, it downloads the patcher and runs it.
+* The server has a manifest file that includes the required files to run.
+  * There are separate manifest files each platform (windows and mac).
+  * The manifest file is a csv and has these parameters for each file: 
+    * Filename (string)
+    * Required for server (0/1)
+    * Required for client (0/1)
+    * Is patching exeapp for Windows (0/1)
+    * CRC32
+    * CRC32 backwards (int)
+* The client application checks the current files against the CRC32 values and platform values.
+  * If it detects any new or changed files, it downloads the patcher to a temporary folder and runs it.
   * The patcher runs the same check, except it is now downloading the files.
   
 ## Except, easier:
