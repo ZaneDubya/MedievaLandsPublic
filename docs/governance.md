@@ -6,7 +6,7 @@ This file describes the governance structure of CommunityKit.
 
 The players form the heart of CommunityKit. They are a community in a broad sense, although they do not have the ability to redefine the community's morals, values, and ideals; these are set by the Rules of Conduct.
 * Players enforce the rules of conduct by modeling the rules, and by using the Complain feature.
-* Players have a say in the future of the Community by raising issues to the Counselors and Community Representatives.
+* Players have a say in the future of the Community by raising issues to the Counselors and Representatives.
 * Players must follow the Rules of Conduct. If a player does not follow the Rules of Conduct, they may be de-voiced, or be temporarily or permanently banned from accessing CommunityKit.
 
 ## Counselors
@@ -36,4 +36,4 @@ The Representatives are a rotating panel of experienced player volunteers. They 
 
 ## Developers
 
-Developers institute the rules of conduct, create new features for the game, select Representatives, and ensure that the Community Representatives are fairly enforcing the rules of conduct. Develpers must follow the Rules of Conduct, and are ultimately reponsible for making sure that the Rules of Conduct are enforced.
+Developers institute the rules of conduct, create new features for the game, select Representatives, and ensure that the Representatives are fairly enforcing the rules of conduct. Develpers must follow the Rules of Conduct, and are ultimately reponsible for making sure that the Rules of Conduct are enforced.
