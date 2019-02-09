@@ -32,7 +32,7 @@ The Representatives are a rotating panel of experienced player volunteers. They 
 * Representatives receive requests for new features and changes to the game or community from the Players, and recommend orders of implemntation to the Developers.
 * Representatives must follow the Rules of Conduct in the same way that Players must. If a Representative does not follow the Rules of Conduct, they may be removed as a Representative, and may be de-voiced, or be temporarily or permanently banned from accessing CommunityKit.
 * Representatives must enforce the Rules of Conduct and run the Counselor program in good faith. A Representative who willfully abuses their powers to give advantages to any player or to harass any player will be removed as a Representative.
-* Representatives are selected for a fixed-length term by the Developers. At the end of their term, Representatives revert to being a player once more. Representatives may serve multiple terms as Representative, but may not serve two terms back to back.
+* Representatives are selected for a fixed-length term by the Developers. At the end of their term, Representatives revert to being a Player/Counselor. Representatives may serve multiple terms as Representative, but may not serve two terms in sequence.
 
 ## Developers
 
