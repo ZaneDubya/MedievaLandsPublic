@@ -16,7 +16,7 @@ The Counslors are experienced player volunteers that assist players with quests 
 * Counselors have administrative powers to help them enforce the Rules of Condut.
   * They may temporarily (up to 1 day) de-voice or ban a player who violates the Rules of Conduct.
   * They may recommend longer sanctions be implemented as well.
-* I may decide to add a 'Lead Counselor' role with more administrative powers.
+* "Senior Counselors" are a second role that have the same powers as Counselors, but have the ability to set bans and de-voices with longer durations.
 * Counselors must follow the Rules of Conduct in the same way that Players must. If a Counselor does not follow the Rules of Conduct, they may be removed as a Counselor, and may be de-voiced, or be temporarily or permanently banned from accessing CommunityKit.
 * Counselors must enforce the Rules of Conduct in good faith. A Counselor who willfully abuses their powers to give advantages to any player or to harass any player will be removed as a Counselor.
 * Counselors are selected by the Representatives and may serve indefinitely.
