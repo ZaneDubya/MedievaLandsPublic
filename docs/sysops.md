@@ -6,9 +6,9 @@ Most players do not have the ability to play as a SysOp. To gain this ability, a
 
 The command to flag a player's account is:
 
-    /makegm name role
-    "name" is the player's GM name.
-    "role" is an enumerated value, either c, s, or r.
+    /sysop role name 
+    "role" is an enumerated value, either c, s, r, or n. "n" is for "not a sysop", which clears the sysop flag from the player's account.
+    "name" is the player's SysOp name.
 
 A player who has a sysop flagged account has an additional character slot in the Gallery. That character has no stats or attributes, or race/class/level/alignment/etc. They do have an appearance. In game, their name is always "GM [name]", with an ephitet equal to their sysop role ("Counselor", "Representative", etc.).
 
