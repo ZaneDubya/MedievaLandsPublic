@@ -6,6 +6,7 @@ This file describes the governance structure of CommunityKit.
 
 The players form the heart of CommunityKit. They are a community in a broad sense, although they do not have the ability to redefine the community's morals, values, and ideals; these are set by the Rules of Conduct.
 * Players enforce the rules of conduct by modeling the rules, and by using the Complain feature.
+* Players can 'ignore' other players that are harassing them.
 * Players have a say in the future of the Community by raising issues to the Counselors and Representatives.
 * Players must follow the Rules of Conduct. If a player does not follow the Rules of Conduct, they may be de-voiced, or be temporarily or permanently banned from accessing CommunityKit.
 
@@ -14,9 +15,9 @@ The players form the heart of CommunityKit. They are a community in a broad sens
 The Counslors are experienced player volunteers that assist players with quests and questions about the game. They are tasked with enforcing the Rules of Conduct, and responding to players who attempt to break the Rules of Conduct. Counselors are selected from those players who are knowledgable about the game and who can enforce the Rules of Conduct fairly.
 * Counselors receive and respond to Complaints from Players.
 * Counselors have administrative powers to help them enforce the Rules of Condut.
-  * They may temporarily (up to 1 day) de-voice or ban a player who violates the Rules of Conduct.
+  * They may temporarily (up to 1 day) de-voice a player who violates the Rules of Conduct.
   * They may recommend longer sanctions be implemented as well.
-* "Senior Counselors" are a second role that have the same powers as Counselors, but have the ability to set bans and de-voices with longer durations.
+* "Senior Counselors" are a second role that have the same powers as Counselors, but have the ability to set bans, and de-voices with longer durations.
 * Counselors must follow the Rules of Conduct in the same way that Players must. If a Counselor does not follow the Rules of Conduct, they may be removed as a Counselor, and may be de-voiced, or be temporarily or permanently banned from accessing CommunityKit.
 * Counselors must enforce the Rules of Conduct in good faith. A Counselor who willfully abuses their powers to give advantages to any player or to harass any player will be removed as a Counselor.
 * Counselors are selected by the Representatives and may serve indefinitely.
