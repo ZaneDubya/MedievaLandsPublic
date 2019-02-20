@@ -17,7 +17,7 @@ When you sign up for the service, you must choose a password. Your password is t
 If your account has been terminated, you may not use the service without the express written permission of the Developers.
 
 <b>Online Content.</b>
-You acknowledge that other users of this service may create content, including graphics, sound effects, music, animations, photographs, video, text, and in-game characters, items, and properties ("Content"). You acknowledge that as a result of your use of the service, you may view examples of this Content. You and any user of your account must bear any risks associated with viewing or acting on that Content, including but not limited to risks that the Content may be inaccurate, incomplete, or not useful.
+You acknowledge that other users of this service may create content, including graphics, sound effects, music, animations, photographs, video, text, and that your use of the service may result in the creation of in-game characters, items, and properties (inclusively referred to as "Content"). You acknowledge that as a result of your use of the service, you may view examples of this Content. You and any user of your account must bear any risks associated with viewing or acting on that Content, including but not limited to risks that the Content may be inaccurate, incomplete, or not useful.
 
 <b>Developers review of Content.</b>
 You acknowledge that the Developers do not pre-screen any Content as a matter of policy. The Developers have the right, but not the responsibility, to remove Content at any time for any purpose.
