@@ -1,11 +1,11 @@
 <b>Terms of Service.</b>
-This "Terms of Service" is a contract between you and the developers of this service ("Developers", a.k.a. Zane Wagner). You must agree to this contract when you sign up for an account on this service. You agree to be bound to this contract at all times after you sign up and at all times you are using the service.
+This "Terms of Service" ("Contract") is a contract between you and the developers of this service ("Developers", a.k.a. Zane Wagner). You must agree to this Contract when you sign up for an account on this service. You agree to be bound to this Contract at all times after you sign up and at all times you are using the service.
 
 <b>Unilateral updates of the service by the Developers.</b>
-This contract may be updated unilaterally by the Developers at any time. The most current version is available online at ###. You are responsible for checking it frequently. Updates to this contract will be presented to you after it is updated when you access the service.
+This Contract may be updated unilaterally by the Developers at any time. The most current version is available online at ###. You are responsible for checking it frequently. Updates to this Contract will be presented to you after it is updated when you access the service.
 
-<b>Your agreement to this contract.</b>
-You must agree to the most current version of the contract if you wish to use the service. Even if you do not access the service after the contract has been updated, updates to the contract will apply to you and your use of the service 21 days after the contract has been updated. If an update is unacceptable to you, you may terminate your account.
+<b>Your agreement to this Contract.</b>
+You must agree to the most current version of the Contract if you wish to use the service. Even if you do not access the service after the Contract has been updated, updates to the Contract will apply to you and your use of the service 21 days after the Contract has been updated. If an update is unacceptable to you, you may terminate your account.
 
 <b>Your user name.</b>
 When you sign up for the service, you must choose a user name. Your user name is an identifier which represents all data (characters, history) and usage of the service by any user of your account. You are responsible for all usage of your account. The Developers may force you to change your user name or any data on your account at any time. The Developers may delete your user name and account at any time for any reason.
@@ -40,4 +40,4 @@ To the maximum extent allowed by law, the Developers do not warranty your connec
 You acknowledge and agree that the Developers have no liability for any action or inaction, and are not liable for any damages in connection with your use of the service. The Developers entire liability to you and users of your account is any amount paid by you to the service.
 
 <b>Choice of Law.</b>
-The Law of Minnesota, USA applies to this contract. You agree to the forum of Minnesota for any legal action. If you wish to provide notice for any purpose to the Developers, you must do so by e-mail to ###.
+The Law of Minnesota, USA applies to all actions regarding your use of the service or under this Contract. You agree to the forum of Minnesota for any legal action. If you wish to provide notice for any purpose to the Developers, you must do so by e-mail to ###.
