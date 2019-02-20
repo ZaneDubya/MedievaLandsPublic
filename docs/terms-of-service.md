@@ -5,7 +5,7 @@ This "Terms of Service" ("Contract") is a contract between you and the developer
 This Contract may be updated unilaterally by the Developers at any time. The most current version is available online at ###. You are responsible for checking it frequently. Updates to this Contract will be presented to you after it is updated when you access the service.
 
 <b>Your agreement to this Contract.</b>
-You must agree to the most current version of the Contract if you wish to use the service. Even if you do not access the service after the Contract has been updated, updates to the Contract will apply to you and your use of the service 21 days after the Contract has been updated. If an update is unacceptable to you, you may terminate your account.
+You must agree to the most current version of the Contract if you wish to use the service. Even if you do not access the service after the Contract has been updated, updates to the Contract will apply to you and your use of the service one month after the Contract has been updated. If an update is unacceptable to you, you may terminate your account.
 
 <b>Your user name.</b>
 When you sign up for the service, you must choose a user name. Your user name is an identifier which represents all data (characters, history) and usage of the service by any user of your account. You are responsible for all usage of your account. The Developers may force you to change your user name or any data on your account at any time. The Developers may delete your user name and account at any time for any reason.
