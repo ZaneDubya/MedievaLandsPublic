@@ -1,7 +1,7 @@
 <b>Terms of Service.</b>
 This "Terms of Service" ("Contract") is a contract between you and the developers of this service ("Developers", a.k.a. Zane Wagner). You must agree to this Contract when you sign up for an account on this service. You agree to be bound to this Contract at all times after you sign up and at all times you are using the service.
 
-<b>Unilateral updates of the service by the Developers.</b>
+<b>Unilateral updates of the Contract by the Developers.</b>
 This Contract may be updated unilaterally by the Developers at any time. The most current version is available online at ###. You are responsible for checking it frequently. Updates to this Contract will be presented to you after it is updated when you access the service.
 
 <b>Your agreement to this Contract.</b>
