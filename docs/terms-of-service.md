@@ -16,20 +16,20 @@ When you sign up for the service, you must choose a password. You are responsibl
 <b>Effects of termination.</b>
 If your account has been terminated, you may not use the service without the express written permission of the Developers.
 
-<b>Online content.</b>
-You acknowledge that other users of this service may create content, including graphics, sound effects, music, animations, photographs, video, text, and in-game characters, items, and properties, and you may view any and all examples of this content as a result of your use of this service. You and any user of your account must bear any risks associated with viewing or acting on that content, including but not limited to risks that the content may be inaccurate, incomplete, or not useful.
+<b>Online Content.</b>
+You acknowledge that other users of this service may create content, including graphics, sound effects, music, animations, photographs, video, text, and in-game characters, items, and properties ("Content"). You acknowledge that as a result of your use of the service, you may view examples of this Content. You and any user of your account must bear any risks associated with viewing or acting on that Content, including but not limited to risks that the Content may be inaccurate, incomplete, or not useful.
 
-<b>Developers review of content.</b>
-You acknowledge that the Developers do not pre-screen any content as a matter of policy. The Developers have the right, but not the responsibility, to remove content at any time for any purpose.
+<b>Developers review of Content.</b>
+You acknowledge that the Developers do not pre-screen any Content as a matter of policy. The Developers have the right, but not the responsibility, to remove Content at any time for any purpose.
 
-<b>Rights to content submitted by you.</b>
-You acknowledge and agree that all content you submit to this service, and all content created as a result of your use of this service, is the sole property of the Developers. By uploading content, you expressly grant (or warrant that the owner of the uploaded content has expressly granted) the Developers the right to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform and display such Content worldwide and/or to incorporate it in other works in any form, media, or technology now known or later developed for the full term including any renewal term of any Rights that may exist in such content.
+<b>Rights to Content submitted by you.</b>
+You acknowledge and agree that all Content you submit to this service, and all Content created as a result of your use of this service, is the sole property of the Developers. By uploading Content, you expressly grant (or warrant that the owner of the uploaded Content has expressly granted) the Developers the right to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform and display such Content worldwide and/or to incorporate it in other works in any form, media, or technology now known or later developed for the full term including any renewal term of any Rights that may exist in such Content.
 
 <b>Privacy.</b>
-You acknowledge and agree that you have no expectation of privacy regarding any content you submit to the service. All communication made by or receive from you may be monitored by the Developers.
+You acknowledge and agree that you have no expectation of privacy regarding any Content you submit to the service. All communication made by or receive from you may be monitored by the Developers.
 
 <b>Age limitations.</b>
-You acknowledge and agree that you are more than 13 years old. At any and all times there may be content available on the service which is inappropriate for children or offensive to users of any age. The Developers will not ensure that other users will not provide content or provide access to content that parents or guardians may find inappropriate or that any user may fund objectionable.
+You acknowledge and agree that you are more than 13 years old. At any and all times there may be Content available on the service which is inappropriate for children or offensive to users of any age. The Developers will not ensure that other users will not provide Content or provide access to Content that parents or guardians may find inappropriate or that any user may fund objectionable.
 
 <b>Limitation of Warranty.</b>
 The Developers make no representation or warranty to you regarding this service or the software or website used to access the service. The service is provided on an as-is, as-available basis.
