@@ -1,5 +1,5 @@
 <b>Privacy Policy.</b>
-The developers of this service ("Developers", a.k.a. Zane Wagner) have adopted this Privacy Policy to explain how we collect, store, and use the information you provide us through your use of the service and any associated websites. This Privacy Policy only applies to information collected by us through your use of the service and any associated website, and does not apply to any third party websites or services that we do not control. You must agree to the terms of this Privacy Policy when you sign up for an account on this service. If you do not agree to this Privacy Policy, you may not use the service.
+The developers of this service ("Developers") have adopted this Privacy Policy to explain how we collect, store, and use the information you provide us through your use of the service and any associated websites. This Privacy Policy only applies to information collected by us through your use of the service and any associated website, and does not apply to any third party websites or services that we do not control. You must agree to the terms of this Privacy Policy when you sign up for an account on this service. If you do not agree to this Privacy Policy, you may not use the service.
 
 <b>Unilateral updates of the Privacy Policy by the Developers.</b>
 This Privacy Policy may be updated unilaterally by the Developers at any time. The most current version is available online at ###. You are responsible for checking it frequently. Updates to this Privacy Policy will be presented to you after it is updated when you access the service. Even if you do not access the service after the Privacy Policy has been updated, updates to the Privacy Policy will apply to you and your use of the service one month after the Privacy Policy has been updated. If an update is unacceptable to you, you may terminate your account.
@@ -47,7 +47,7 @@ If you, for any reason, would like to complain about use of your information, yo
 To correct or delete your information, please contact us at ###. Deletion of your information will result in the termination of your account. We may not be able to delete your information if it is necessary to comply with legal obligations, resolve disputes, and enforce our contracts.
 
 <b>Security of your information.</b>
-The Developers have taken steps to secure information that you submit to us. The steps taken are reasonable in light of the fact that this service has been created by one person.
+The Developers have taken steps to secure information that you submit to us. The steps taken are reasonable in light of the fact that this service has been created by one person who is not a professional programmer or security professional.
 
 <b>Location of the Developers.</b>
 The Developers maintain facilities and conduct business in the United Statesm. If you are a visitor from outside the United States, the personal information you provide will be transferred to, stored, and processed within the United States. If you wish to enforce rights that apply to this information that are unique to your jurisdiction, you must do so through e-mail to ###.
