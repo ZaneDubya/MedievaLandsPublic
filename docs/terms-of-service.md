@@ -11,7 +11,7 @@ You must agree to the most current version of the Contract if you wish to use th
 When you sign up for the service, you must choose a user name. Your user name is an identifier which represents all data (characters, history) and usage of the service by any user of your account. You are responsible for all usage of your account. The Developers may force you to change your user name or any data on your account at any time. The Developers may delete your user name and account at any time for any reason.
 
 <b>Your password.</b>
-When you sign up for the service, you must choose a password. You are responsible for choosing a secure password and for maintaining the confidentiality of that password.
+When you sign up for the service, you must choose a password. Your password is the only protection against use of your account by unauthorized individuals. You are solely responsible for choosing a strong and secure password and for maintaining the confidentiality of that password.
 
 <b>Effects of termination.</b>
 If your account has been terminated, you may not use the service without the express written permission of the Developers.
