@@ -32,9 +32,7 @@ You acknowledge and agree that you have no expectation of privacy regarding any 
 You acknowledge and agree that you are more than 13 years old. At any and all times there may be Content available on the service which is inappropriate for children or offensive to users of any age. The Developers will not ensure that other users will not provide Content or provide access to Content that parents or guardians may find inappropriate or that any user may fund objectionable.
 
 <b>Limitation of Warranty.</b>
-The Developers make no representation or warranty to you regarding this service or the software or website used to access the service. The service is provided on an as-is, as-available basis.
-
-To the maximum extent allowed by law, the Developers do not warranty your connection to, transmission over, or results of using the service. The Developers disclaim all implied warranties or conditions of merchantability, fitness for a particular purpose, and assume no responsibility for anyone all damages suffered by you or other users of your account. You expressly agree that the use of the service is at your own sole risk.
+The Developers make no representation or warranty to you regarding this service or the software or website used to access the service. The service is provided on an as-is, as-available basis. To the maximum extent allowed by law, the Developers do not warranty your connection to, transmission over, or results of using the service. The Developers disclaim all implied warranties or conditions of merchantability, fitness for a particular purpose, and assume no responsibility for anyone all damages suffered by you or other users of your account. You expressly agree that the use of the service is at your own sole risk.
 
 <b>Limitation of Liability.</b>
 You acknowledge and agree that the Developers have no liability for any action or inaction, and are not liable for any damages in connection with your use of the service. The Developers entire liability to you and users of your account is any amount paid by you to the service.
