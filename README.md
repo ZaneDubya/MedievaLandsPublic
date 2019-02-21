@@ -19,16 +19,16 @@ This is the public repository for documentation and issue tracking for Community
 * Hypercare and stabilization after launch expected to end May 2019.
 
 ## Development History
-* As of February 4, 2019, I have been working on CommunityKit for six months.
+* As of February 21, 2019, I have been working on CommunityKit for six and a half months.
 * The first push was between April 17 and July 24, 2018.
 * The current push began November 5, 2018 and is ongoing.
 * My best estimate is that it will be ready for release in early to mid March 2019.
 * I also expect it will need a rigorous bug testing period ("hypercare and stabilization") after release.
 
 CommunityKit is written in C#.
-* As of February 4, 2019, CommunityKit is 84,684 lines of code. 
-  * The Server-specific codebase is approximately 47% of the code.
+* As of February 21, 2019, the CommunityKit Server/Client is 85,700 lines of code. 
+  * The Server-specific codebase is approximately 46% of the code.
   * The Client-specific codebase is approximately 44% of the code.
-  * The Client and Server share an additional codebase of 7,255 lines of code.
+  * The Client and Server share an additional codebase of 8,500 lines of code.
 * The server runs on .NET Core 2.0.
-* The client runs on the XNA platform, portable to MonoGame/FNA for cross-platform releases.
+* The client runs on the FNA platform, which allows for cross-platform release on Windows and Mac.
