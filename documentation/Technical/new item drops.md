@@ -40,8 +40,7 @@ Every map has three treasure table references: normal, extra, and unique.
 
 When combat starts, the game will check if treasure drops have already been set for this encounter (by the map script).
 - If treasure already exists for the encounter,
-  - then the game will use the preset drops, 
-  - and will also make a pick from the extra table for each stack beyond the first stack.
+  - then the game will use the preset drops only.
 - If treasure does not already exist, and the encounter does not include a unique monster, 
   - then the game will make a pick from the normal table for the first stack,
   - and will make a pick from the extra table for all stacks beyond the first stack.
