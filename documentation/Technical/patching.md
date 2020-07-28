@@ -1,5 +1,7 @@
 # CommunityKit Update/Patching Process
 
+* Note: The 330 series of builds added a brand new patcher that gives more information about the patching process, and adds a 'uninstall' option. *
+
 Current running client application checks for updates on launch.
 * If an update is available, prompt the user to download it, noting that this will require a restart.
 * If user permits, download the patching app and updated files into a temporary location. The update will include a separate signed patching application (patcher).
