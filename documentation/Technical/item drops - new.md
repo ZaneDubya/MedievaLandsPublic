@@ -32,29 +32,35 @@ Most of the treasure tables are defined in the "new-tt.csv" file noted above. So
 
 Items are picked during combat as monsters die (or a player uses "Pickpocket" to generate an item drop for that player).
 * The first item drop is always picked from Standard (or Unique if this a unique monster encounter), unless one or more items were set by the map script.
-* Otherwise all drops (up to a total of 5 picks) are picked from Extra.
+* All drops after the first are picked from Extra. The maximum number of drops is five.
 
-## Choosing a Pick in several easy steps.
+## Choosing a Pick
 
-When a pick is needed, the game is passed a treasure table, the player's magic find value, and a set of bonuses to the chance of better quality drops.
+When a pick is needed, the game is passed a treasure table, the player's magic find value, and possibly bonuses to the chance of better quality drops.
 
 The first thing that happens is that the game picks drops from the table.
-- Generate a random number between 0 and (noDrop + sum(pickChances) - 1). Use this random number to pick no drop, or a table or item choice based on this random number.
-- If the pick is no drop, stop and don't add an item.
-- If the pick is a table, start over picking from that table (but maintaining the initial choice of quality).
-- If the pick is an item, continue with that item.
-  
-Second, the game chooses the quality for the pick:
-- For each level of "higher than normal" quality (unique, magic), attempt to generate an item at that quality level...
-- Chance = (((1000+QualityMF×PlayerMF)÷1000)×QualityDropFactor+QualityDropBonus*100)
-  - QualityMF: 100 for magic, 80 for set, 60 for unique.
-  - PlayerMF: Player's MF value 
-  - QualityDropFactor: 334 for magic, 50 for set, 25 for unique
-  - QualityDropBonus: as treasure table's bonus value. 1 pt = 1% increased drop chance
+1. Generate a random number between 0 and (noDrop + sum(pickChances) - 1). Use this random number to pick no drop, or a table or item choice based on this random number.
+2. If the pick is no drop, stop and don't add an item.
+3. If the pick is a table, start over at step 1 with that table.
+4. If the pick is an item, continue with that item.
+
+## Quality Levels
+
+Second, the game attempts to 'upgrade' the pick to a higher quality. There are two For each level of "higher than normal" quality: unique and magic. For each of these higher quality levels, the game will check to see if the picked item will be of that quality. (As a side note, I've envisioned including Set items in the future; these are currently not enabled).
+
+The formula for attempting to select a higher quality level is as follows:
+
+Chance of Quality = (QualityDropBonus * 100) + QualityDropFactor * ((1000 + QualityMF * PlayerMF) ÷ 1000)
+- QualityDropBonus: as treasure table's bonus value. 1 pt = 1% increased drop chance
+- QualityDropFactor: 334 for magic, 50 for set, 25 for unique
+- QualityMF: 100 for magic, 80 for set, 60 for unique.
+- PlayerMF: Player's MF value 
 
 In summary, a player with no MF will see unique items 0.25% of the time, set items 0.5% of the time, and magic items 3.34% of the time. It takes 10 magic find to double magic item drops, 12.5 pts to double set drops, and 16.5 to double unique drops.
 
-The game attempts to generate unique items first. If the unique roll succeeds, it checks to see if a unique item can be generated. Unique (and set) items are kept in separate tables. The important thing to note is each unique/set item has an item type and a level and a drop ratio. The game picks all unique items matching the item type and with a level less than or equal to the player's level, and chooses a drop based on the ratios of all selected unique items.
+### Unique Items
+
+The game attempts to generate unique items first. If the unique roll succeeds, it checks to see if a unique item can be generated. Unique (and in the future, Set) items are kept in separate tables. The important thing to note is each unique/set item has an item type and a level and a drop ratio. The game picks all unique items matching the item type and with a level less than or equal to the player's level, and chooses a drop based on the ratios of all selected unique items.
 
 If the pick quality check fails, or if there are no unique items available, then the game attempts the next quality level, ending at normal.
 
