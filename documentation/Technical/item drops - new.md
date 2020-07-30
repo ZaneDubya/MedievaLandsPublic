@@ -1,6 +1,3 @@
-NOTE: Review treasure drop system to make sure it uses all fields as currently implemented: quality system, new affixes, limited affix selection, mapLevelReq (and map levels!), dropRatio, dropTable, CLvlReq, Templating, ItemType, CostMul, random icon selection.
-
-
 # Item Picks in MedievaLands
 
 This is a description of the item generation mechanic in MedievaLands. It is a replacement of the vast majority of the item mechanics in Yserbius.
@@ -46,7 +43,11 @@ The first thing that happens is that the game picks drops from the table.
 
 ## Quality Levels
 
-Second, the game attempts to 'upgrade' the pick to a higher quality. There are two For each level of "higher than normal" quality: unique and magic. For each of these higher quality levels, the game will check to see if the picked item will be of that quality. (As a side note, I've envisioned including Set items in the future; these are currently not enabled).
+The game now attempts to "upgrade" the pick to a higher quality. There are two For each level of "higher than normal" quality: unique and magic. For each of these higher quality levels, the game will check to see if the picked item will be of that quality (as a side note, I've envisioned including an additional quality level of "Set items", but these are not currently enabled).
+
+After the game has picked an item, the game checks the item's QType value.
+* If the QType is 0, the game generates the item and stops the item pick process.
+* If the QType is greater than 0, the game proceeds with item generation. If the QType is equal to 2, the game additionally sets an "AlwaysMagic" variable to true. This ensures that the item will, at a minimum, always be of "Magic" quality.
 
 The formula for attempting to select a higher quality level is as follows:
 
@@ -56,11 +57,29 @@ Chance of Quality = (QualityDropBonus * 100) + QualityDropFactor * ((1000 + Qual
 - QualityMF: 100 for magic, 80 for set, 60 for unique.
 - PlayerMF: Player's MF value 
 
-In summary, a player with no MF will see unique items 0.25% of the time, set items 0.5% of the time, and magic items 3.34% of the time. It takes 10 magic find to double magic item drops, 12.5 pts to double set drops, and 16.5 to double unique drops.
+The game generates a random number between 0 and 9999 and checks to see if this value is less than the "Chance of Quality" for each quality level in sequence. A player with no MF will see unique items 0.25% of the time, set items 0.5% of the time, and magic items 3.34% of the time. It takes 10 magic find to double magic item drops, 12.5 pts to double set drops, and 16.5 to double unique drops. As a side note, the chance of a magic item is higher because some items are always magic and because if a unique quality is picked but no unique items can be generated, the item will revert to magic quality.
 
-### Unique Items
+### Unique Quality
 
-The game attempts to generate unique items first. If the unique roll succeeds, it checks to see if a unique item can be generated. Unique (and in the future, Set) items are kept in separate tables. The important thing to note is each unique/set item has an item type and a level and a drop ratio. The game picks all unique items matching the item type and with a level less than or equal to the player's level, and chooses a drop based on the ratios of all selected unique items.
+The game attempts to generate unique items first. If the unique quality attempt fails, then the game proceeds to check if a "Magic quality" item drops.
 
-If the pick quality check fails, or if there are no unique items available, then the game attempts the next quality level, ending at normal.
+If the unique quality attempt succeeds, the game then checks to see if any unique items can be generated. Unique (and in the future, Set) items are kept in separate tables. The important thing to note is each unique/set item has an item type and a level and a drop ratio. The game picks all unique items matching the item type and with a level less than or equal to the player's level, and chooses a drop based on the ratios of all selected unique items. If no unique items can be generated, then the game sets the AlwaysMagic variable to true, and proceeds with other quality checks.
 
+Unique quality items have preset modifier types. The game selects 
+
+### Magic Quality
+
+If the pick quality check fails, or if there are no unique items available, then the game attempts the next quality level (Magic). For Magic quality items, if the quality attempt succeeds or if the AlwaysMagic variable is true, the game runs an additional check as follows:
+* Magic item - prefix only - 38% chance.
+* Magic item - suffix only - 38% chance.
+* Magic item - both prefix and suffix - 24% chance.
+
+For either/both of prefix and suffix choices, the game assembles a list of all the modifiers that can be chosen from the mod table (based on item type, map level).
+
+### Normal quality
+
+All other items are normal quality with no modifiers.
+
+### Templated items
+
+Some items are templated, and read all stats and template id from the original yserbius data files. They also have the original template item id that is referenced in the original game's map scripts.
