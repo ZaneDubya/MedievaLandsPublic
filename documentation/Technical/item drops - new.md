@@ -52,12 +52,12 @@ After the game has picked an item, the game checks the item's QType value.
 The formula for attempting to select a higher quality level is as follows:
 
 Chance of Quality = (QualityDropBonus * 100) + QualityDropFactor * ((1000 + QualityMF * PlayerMF) ÷ 1000)
-- QualityDropBonus: as treasure table's bonus value. 1 pt = 1% increased drop chance
+- QualityDropBonus: as treasure table's bonus value. 10 pts = 1% increased drop chance
 - QualityDropFactor: 334 for magic, 50 for set, 25 for unique
 - QualityMF: 100 for magic, 80 for set, 60 for unique.
 - PlayerMF: Player's MF value 
 
-The game generates a random number between 0 and 9999 and checks to see if this value is less than the "Chance of Quality" for each quality level in sequence. A player with no MF will see unique items 0.25% of the time, set items 0.5% of the time, and magic items 3.34% of the time. It takes 10 magic find to double magic item drops, 12.5 pts to double set drops, and 16.5 to double unique drops. As a side note, the chance of a magic item is higher because some items are always magic and because if a unique quality is picked but no unique items can be generated, the item will revert to magic quality.
+The game generates a random number between 0 and 99999 and checks to see if this value is less than the "Chance of Quality" for each quality level in sequence. A player with no MF will see unique items 0.25% of the time, set items 0.5% of the time, and magic items 3.34% of the time. It takes 10 magic find to double magic item drops, 12.5 pts to double set drops, and 16.5 to double unique drops. As a side note, the chance of a magic item is higher because some items are always magic and because if a unique quality is picked but no unique items can be generated, the item will revert to magic quality.
 
 ### Unique Quality
 
