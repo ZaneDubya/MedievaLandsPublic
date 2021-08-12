@@ -1,7 +1,7 @@
 # New patch logic
 
 ## Game Execution
-                 /*	=== Game Execution =======================================================================================
+        /*	=== Game Execution =======================================================================================
 		 *	==========================================================================================================
 		 *	Variables:
 		 *		this-build-id: the build-id of the launched program
@@ -47,7 +47,7 @@
 		 *				Download from server to local storage.
 		 *	UNLOCK.
 		 *	Game is ready and running!
-		*/
+		 */
 
 ## Updater execution
 	Wait until unlocked.
