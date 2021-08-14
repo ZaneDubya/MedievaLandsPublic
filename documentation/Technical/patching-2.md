@@ -1,7 +1,8 @@
-# New patch logic
+namespace XPT.Core.Updating {
+    delegate void UpdateMessageHandler(string message, int? progress);
 
-## Game Execution
-        /*	=== Game Execution =======================================================================================
+    static class UpdateLogic {
+		/*	=== Game Execution =======================================================================================
 		 *	==========================================================================================================
 		 *	Variables:
 		 *		this-build-id: the build-id of the launched program
@@ -47,14 +48,27 @@
 		 *				Download from server to local storage.
 		 *	UNLOCK.
 		 *	Game is ready and running!
-		 */
+		*/
 
-## Updater execution
-	Wait until unlocked.
-	LOCK.
-	Download update.
-	Unpack update in local storage.
-	Copy update to app folder in local storage.
-	UNLOCK.
-	Run app in local storage.
-	EXIT.
+		internal static EUpdateValue AsGame(UpdateMessageHandler onMsg, string pathLocalStorage, string pathServer, 
+			bool checkMinimumVersion, bool runInLocal, bool checkForUpdates, EResourceBehavior resourceBehavior) {
+			return EUpdateValue.Ready;
+        }
+
+		/*	=== Patcher Execution ====================================================================================
+		 *	==========================================================================================================
+		 *	Wait until unlocked.
+		 *	LOCK.
+		 *	Download update.
+		 *	Unpack update in local storage.
+		 *	Copy update to app folder in local storage.
+		 *	UNLOCK.
+		 *	Run app in local storage.
+		 *	EXIT.
+		*/
+
+		internal static void AsUpdater() {
+
+        }
+	}
+}
