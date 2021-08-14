@@ -1,3 +1,4 @@
+```csharp
 namespace XPT.Core.Updating {
     delegate void UpdateMessageHandler(string message, int? progress);
 
