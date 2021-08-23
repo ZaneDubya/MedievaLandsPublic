@@ -72,7 +72,7 @@ criterion WonGame		Winner =   true
 // Single response format:
 //      response responsename responsetype responseparam [once | repeatafter value] [then target conceptname contexts]
 // Response set format:
-//      response responsename [permitrepeats] [ordered] [norepeat] {
+//      response responsename [permitrepeats] [ordered] [once] {
 //          responsetype responseparam [once | repeatafter value] [weight value] [orderfirst | orderlast] [then target conceptname contexts]
 //          responsetype responseparam [once | repeatafter value] [weight value] [orderfirst | orderlast] [then target conceptname contexts]
 //          ...
@@ -82,14 +82,15 @@ criterion WonGame		Winner =   true
 //      permitrepeats       Optional. Allows repeated responses before all are selected once.
 //                          By default all responses must be selected once before any repeat.
 //      ordered             Optional. Select responses in order. By default responses in a set are selected randomly.
-//      norepeat            Optional. Once all responses have been selected disable the response set.
-//      responsetype        One of:
+//      responsetype        An identifier. One of:
 //          speak           responseparam is a key to text_%%.txt. Show as speech with portrait.
 //          sign            responseparam is a key to text_%%.txt. Show as sign post.
 //          print           responseparam is a key to text_%%.txt. Show as text on screen.
 //          scene           responseparam is filename in the data/scenes folder.
 //			script			responseparam is a lox script.
-//		once				Optional. response will only be shown once in the entire game.
+//		once				Optional. For single responses, response will only be shown once in the entire game.
+//							For response sets, Once all responses have been selected disable the response set.\
+//							Once will not work for sets with the permitrepeats option.
 //		repeatafter			Optional. response will be disabled for value seconds.
 //		weight				Optional. By default responses are selected randomly as if all weights are 100. You can
 //							make a response less frequent by setting weight < 100 and more likely with weight > 100.
@@ -114,12 +115,13 @@ response ShowSign2 {
 
 // A rule is a set of one or more criteria, and a response that will be fired if the rule is selected based the context.
 // Format:
-// 		rule rulename [matchonce] {
+// 		rule rulename [once] {
+//			trigger triggerName
 //			criteria [...]
 //			response [...]
 // 		}
 // Descriptions:
-//		rulename	The name of the rule.  Required. Not used by the rule system but included in debug logs.
+//		once		The name of the rule.  Required. Not used by the rule system but included in debug logs.
 //		matchonce	Optional. If present, the rule will be disabled after a match.
 //		criteria	Followed by a list of defined criterion.
 //		response	Followed by a single response, defined by responsename, or one unnamed single response, or one unnamed response set.
