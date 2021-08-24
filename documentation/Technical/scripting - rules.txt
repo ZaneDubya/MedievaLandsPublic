@@ -83,11 +83,11 @@ criterion WonGame		Winner =   true
 //                          By default all responses must be selected once before any repeat.
 //      ordered             Optional. Select responses in order. By default responses in a set are selected randomly.
 //      responsetype        An identifier. One of:
-//          speak           responseparam is a key to text_%%.txt. Show as speech with portrait.
-//          sign            responseparam is a key to text_%%.txt. Show as sign post.
-//          print           responseparam is a key to text_%%.txt. Show as text on screen.
-//          scene           responseparam is filename in the data/scenes folder.
-//			script			responseparam is a lox script.
+//			script			responseparam is a named lox script.
+//          *speak          responseparam is a key to text_%%.txt. Show as speech with optional portrait.
+//          *sign           responseparam is a key to text_%%.txt. Show as sign post.
+//          *print          responseparam is a key to text_%%.txt. Show as text on screen.
+//          *scene          responseparam is filename in the data/scenes folder.
 //		once				Optional. For single responses, response will only be shown once in the entire game.
 //							For response sets, Once all responses have been selected disable the response set.\
 //							Once will not work for sets with the permitrepeats option.
