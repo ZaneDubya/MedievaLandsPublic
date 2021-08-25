@@ -60,9 +60,9 @@ emumeration DialogueType {
 
 
 criterion IsPlayer 		Actor = player required
-criterion IsRich		Gold>=500 2.0
+criterion IsRich		Gold>=500 weight 2.0
 criterion IsNamedBob	Name="Bob"
-criterion WonGame		Winner =   true
+criterion WonGame		Winner =   true required
 
 
 // === Responses =====================================================================================================
@@ -70,11 +70,12 @@ criterion WonGame		Winner =   true
 
 // A response is an event or set of events, one of which will be selected if the rule matches.
 // Single response format:
-//      response responsename responsetype responseparam [once | repeatafter value] [then target conceptname contexts]
+//      response responsename responsetype responseparam [once | repeatafter value] [then target trigger contexts]
 // Response set format:
-//      response responsename [permitrepeats] [ordered] [once] {
-//          responsetype responseparam [once | repeatafter value] [weight value] [orderfirst | orderlast] [then target conceptname contexts]
-//          responsetype responseparam [once | repeatafter value] [weight value] [orderfirst | orderlast] [then target conceptname contexts]
+//      response responsename {
+//			[permitrepeats] [ordered] [once]
+//          responsetype responseparam [once | repeatafter value] [weight value] [orderfirst | orderlast] [then target trigger contexts]
+//          responsetype responseparam [once | repeatafter value] [weight value] [orderfirst | orderlast] [then target trigger contexts]
 //          ...
 //      }
 //  Descriptions:
@@ -83,10 +84,10 @@ criterion WonGame		Winner =   true
 //                          By default all responses must be selected once before any repeat.
 //      ordered             Optional. Select responses in order. By default responses in a set are selected randomly.
 //      responsetype        An identifier. One of:
-//			script			responseparam is a named lox script.
-//          *speak          responseparam is a key to text_%%.txt. Show as speech with optional portrait.
-//          *sign           responseparam is a key to text_%%.txt. Show as sign post.
-//          *print          responseparam is a key to text_%%.txt. Show as text on screen.
+//			script			responseparam is a named lox script. Can be namespaced.
+//          *speak          responseparam is a key to text_LNG.txt. Show as speech with optional portrait.
+//          *sign           responseparam is a key to text_LNG.txt. Show as sign post.
+//          *print          responseparam is a key to text_LNG.txt. Show as text on screen.
 //          *scene          responseparam is filename in the data/scenes folder.
 //		once				Optional. For single responses, response will only be shown once in the entire game.
 //							For response sets, Once all responses have been selected disable the response set.\
@@ -97,13 +98,13 @@ criterion WonGame		Winner =   true
 //							This is overridden by ordered orderfirst and orderlast.
 //		orderfirst			Optional. This response will always occur first unless the response is disabled.
 //		orderlast			Optional. This response will always occur last unless the response is disabled.
-// 		then				Optional. Another concept fires after the response. Used to make characters respond to eachother.
+// 		then				Optional. Another trigger fires after the response. Used to make characters respond to eachother.
 //							target is the defined ingame name of the target.
-//							conceptname will be the named concept dispatched to the target.
-//							contexts are a list of variables added to the dispatched concept.
+//							trigger is the named trigger dispatched to the target.
+//							contexts are a list of variables added to the dispatched trigger.
 //							Format is key:value where key is the context name and value is numeric boolean enumeration or string.
 
-response ShowSign1 
+response ShowSign1
 
 response ShowSign2 {
 	
@@ -115,24 +116,23 @@ response ShowSign2 {
 
 // A rule is a set of one or more criteria, and a response that will be fired if the rule is selected based the context.
 // Format:
-// 		rule rulename [once] {
-//			trigger triggerName
-//			criteria [...]
+// 		rule ruleName [once] {
+//			trigger criteria*
 //			response [...]
 // 		}
 // Descriptions:
-//		once		The name of the rule.  Required. Not used by the rule system but included in debug logs.
-//		matchonce	Optional. If present, the rule will be disabled after a match.
-//		criteria	Followed by a list of defined criterion.
-//		response	Followed by a single response, defined by responsename, or one unnamed single response, or one unnamed response set.
+//		ruleName	The name of the rule.  Required. Not used by the rule system but included in debug logs.
+//		once		Optional. If present, the rule will be disabled after a match.
+//		trigger		The named trigger that this rule responds to.
+//		criteria	A list of defined criterion and/or inline criterion.
+//		response	Followed by a defined response, or one inline single response, or one inline response set.
 
 
 
 
 
-rule {
-    trigger     EnterLocation
-    criteria    IsPlayer Map=0000 required Location=2 required SeenSign=0 required
+rule exampleRule {
+    EnterLocation IsPlayer Map=0000 required Location=2 required SeenSign=0 required
     response    
 }
 
