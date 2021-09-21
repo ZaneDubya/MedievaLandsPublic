@@ -1,5 +1,5 @@
 # MedievaLands Map Scripting
-*In implemented for Modern maps*
+*As implemented for Modern maps*
 
 'Modern' games are Yserbius-style multiplayer dungeon crawlers which run on the MedievaLands service.
 
