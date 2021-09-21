@@ -50,11 +50,15 @@ As an aside, tile and party flags are stored per player, and copied from the par
 
 Map scripts are written in the lox language and run by my LoxScript "Gears" virtual machine.
 
-Map script functions are associated with map events with a non-zero event index.
+Map script functions are associated with map events with a non-zero event index. If a function exists for a given map index, when the map event is invoked by a party action, the function is run for all members of the party.
 
-The association is explicit in the function name: function names must be The map script function is then invoked for each player.
+The association between event index and function is explicit in the name: function names must be named FnXXXXXX, where "X" is a 6-digit decimal number with leading zeroes, where the number corresponding to an event index.
+
+The signature of a function is FnXXXXXX(Player player, Context context), where player is the mobile object that encountered the event index, and context is any number of other variables passed to the function.
 
 ### Flags
 
-There are three types of flags:
-- Map flags: persistent on the map.
+There are three types of flags.
+- Tile flags: session, party-wide, cleared when party moves to a new tile.
+- Map flags: session, party-wide, cleared when party moves to a new map.
+- Progression flags: progression, character only.
